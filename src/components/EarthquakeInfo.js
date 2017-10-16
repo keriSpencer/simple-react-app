@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '/Users/kerispencer/Development/react/simple-react-app/src/styles/App.css'
-import moment from 'moment'
 
 class EarthquakeInfo extends Component {
   render() {

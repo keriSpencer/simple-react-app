@@ -2,14 +2,13 @@ import React, { Component } from 'react'
 import '/Users/kerispencer/Development/react/simple-react-app/src/styles/App.css'
 import earthquakes from '../data/earthquakes.js'
 import moment from 'moment'
-import '/Users/kerispencer/Development/react/simple-react-app/src/styles/App.css'
 import '/Users/kerispencer/Development/react/simple-react-app/src/styles/index.css'
 
 class EarthquakeList extends Component {
   render() {
-    let quakes = earthquakes.features.map(earthquake => {
+    let quakes = earthquakes.features.map((earthquake, i) => {
       return (
-        <div>
+        <div key={i}>
           <div className="col-sm-6" key={earthquake.id}>
             <div className="card">
               <div className="card-block">

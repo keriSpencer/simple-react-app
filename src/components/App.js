@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../styles/App.css'
-import moment from 'moment'
 import EarthquakeList from './EarthquakeList'
 import EarthquakeInfo from './EarthquakeInfo'
 
